@@ -1,0 +1,84 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-11 18:11:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-11 18:55:27
+*/
+/* 头部样式*/
+.sdt_container{width:640px;margin:0 auto;}
+header, .inner{width: 100%;}
+header .inner{
+    background-color: #50bbdb;
+}
+header .inner .location{
+    margin-top: 65px;
+    float: left;
+    width: 130px;
+    height: 60px;
+    color: #fff;
+    margin-left: 20px;
+}
+header .inner .operation{
+    width: 480px;
+    margin-top: 65px;
+    margin-bottom: 26px;
+    float: right;
+}
+header .inner .switchover{
+    float: left;
+    border-radius: 5px;
+    border:1px solid #fff;
+}
+.switchover>a{
+    float: left;
+    display:block;
+    width: 164px;
+    color:#48bbce;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size:26px;
+}
+.switchover>a:nth-child(1){
+    background-color:#fff;
+}
+header .inner .camra{
+    display:block;
+    border-radius:100px;
+    margin-right: 32px;
+    float: right;
+    width: 55px;
+    height: 55px;
+    background-image: url(../images/camra_05.jpg);
+}
+.search{
+    width: 100%;
+    margin: 25px;
+}
+.sdt_warp article h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+}
+.content{
+    position: relative;
+}
+.content .bg-transparency-shang{
+    top:0px;
+    left:0px;
+    position:absolute;
+    font-size: 28px;
+    color: #fff;
+    line-height: 57px;
+    margin-left: 32px;
+    height: 57px;
+    background-color: rgba(0,0,0,0.1);
+}
+.content .bg-transparency-xia{
+    left: 26px;
+    bottom: 7px;
+    color: #fff;
+    font-size: 22px;
+    position:absolute;
+    background-color: rgba(0,0,0,0.1);
+}
