@@ -2,130 +2,257 @@
 * @Author: Marte
 * @Date:   2018-07-11 18:11:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-07-12 13:43:13
+* @Last Modified time: 2018-07-15 12:03:29
 */
+
+
 /* 头部样式*/
-.sdt_container{width:640px;margin:0 auto;}
-header, .inner{width: 100%;}
-header .inner{
+
+.sdt_container {
+    width: 6.4rem;
+    margin: 0 auto;
+}
+
+header .inner {
     background-color: #50bbdb;
 }
-header .inner .location{
-    margin-top: 65px;
+
+header .inner .location {
+    display: block;
+    margin-top: 0.65rem;
     float: left;
-    width: 130px;
-    height: 60px;
+    font-size: 0.18rem;
+    line-height: 0.60rem;
+    width: 0.75rem;
+    height: 0.60rem;
     color: #fff;
-    margin-left: 20px;
+    margin-left: 0.20rem;
+    padding-left: 0.60rem;
+
+    background: url('../images/location_05.jpg') 0rem 0rem no-repeat;
+    background-size: 42%;
 }
-header .inner .operation{
-    width: 480px;
-    margin-top: 65px;
-    margin-bottom: 26px;
+
+header .inner .operation {
+    width: 4.80rem;
+    margin-top: 0.65rem;
+    margin-bottom: 0.26rem;
     float: right;
 }
-header .inner .switchover{
+
+header .inner .switchover {
     float: left;
-    border-radius: 5px;
-    border:1px solid #fff;
+    margin-top: 0.12rem;
+    border-radius: 0.05rem;
+    border: 0.01rem solid #fff;
 }
-.switchover>a{
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.switchover>a {
     float: left;
-    display:block;
-    width: 164px;
-    color:#48bbce;
-    height: 35px;
+    display: block;
+    width: 1.64rem;
+    color: #48bbce;
+    height: 0.35rem;
     text-align: center;
-    line-height: 35px;
-    font-size:26px;
+    line-height: 0.35rem;
+    font-size: 0.26rem;
 }
-.switchover>a:nth-child(1){
-    background-color:#fff;
+
+.switchover>a:nth-child(1) {
+    background-color: #fff;
 }
-header .inner .camra{
-    display:block;
-    border-radius:100px;
-    margin-right: 32px;
+
+.switchover>a:nth-child(2) {
+    color: #fff;
+}
+
+header .inner .camra {
+    display: block;
+    border-radius: 1rem;
+    margin-right: 0.32rem;
     float: right;
-    width: 55px;
-    height: 55px;
+    width: 0.55rem;
+    height: 0.55rem;
+    background-size: 100%;
     background-image: url(../images/camra_05.jpg);
 }
-.search{
+
+.search {
     width: 100%;
-    margin: 25px 0;
+    margin: 0.25rem 0;
     text-align: center;
+    position: relative;
 }
-.search input{
-    margin: 0px auto;
+
+.search input {
+    width: 3.25rem;
+    height: 0.42rem;
+    display: block;
+
+    margin: 0rem auto;
+    outline: none;
+    padding-left: 0.20rem;
+    border-radius: 1rem;
+    border: 0.01rem solid #83cade;
 }
-.sdt_warp article h2{
-    font-size: 36px;
+
+.search a {
+    top: 0.10rem;
+    right: 1.70rem;
+    position: absolute;
+    display: block;
+    width: 0.27rem;
+    height: 0.27rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../images/sousuo.jpg);
+}
+
+.sdt_warp article h2 {
+    margin-top: 0.2rem;
+    margin-bottom: 0.12rem;
+    font-size: 0.36rem;
     text-align: center;
     font-weight: lighter;
+    position: relative;
 }
-.sdt_warp article p{
-    font-size: 24px;
-    margin-left:24px;
-    padding: 6px 0px 28px 0px;
+
+.sdt_warp article p {
+    font-size: 0.24rem;
+    margin-left: 0.24rem;
+    padding: 0.06rem 0rem 0.28rem 0rem;
 }
-.sdt_warp article a{
-    bottom: -42px;
-    right: 0px;
+
+.sdt_warp article .prize{
+    bottom: -0.5rem;
+    right: 0rem;
     display: block;
-    width: 100px;
-    height: 100px;
-    border-radius:100px;
-    position:absolute;
-    border:2px solid #FFF;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    border: 0.05rem solid #FFF;
     background-color: #ff6214;
 }
-.more{
+
+.sdt_warp article h2 span {
+    border-bottom: 0.01rem solid #ccc;
+    position: absolute;
+    display: block;
+    top: 0.25rem;
+
+    width: 2.7rem;
+}
+
+.sdt_warp article h2 span:nth-child(3) {
+    right: 0;
+}
+
+.sdt_warp article h2 i {
+    display: block;
+    width: 0rem;
+    height: 0rem;
+    top: 0.16rem;
+    position: absolute;
+    border-top: 0.20rem solid #ccc;
+    border-left: 0.20rem solid transparent;
+}
+
+.sdt_warp article h2 i:nth-child(2) {
+    transform: rotate(-135deg);
+    left: 2.64rem;
+}
+
+.sdt_warp article h2 i:nth-child(4) {
+    right: 2.64rem;
+    transform: rotate(45deg);
+}
+
+.sdt_warp article a span {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding-top: 0.18rem;
+    padding-bottom: 0.12rem;
+}
+
+.sdt_warp article a span:nth-child(1) {
+    border-bottom: 0.01rem solid #fff;
+    font-size: 0.24rem;
+    padding-top: 0.18rem;
+    padding-bottom: 0.05rem;
+}
+
+.sdt_warp article a span:nth-child(2) {
+    font-size: 0.18rem;
+    padding-top: 0.02rem;
+    padding-bottom: 0.12rem;
+}
+
+.more {
 
     background-color: #f1f1f1;
 }
-.more a{
-    color:#ff6214;
-    text-align: center;
-    margin:auto;
-    display:block;
-    width: 112px;
-    padding:24px 0px;
 
+.more a {
+    width: 1.5rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #ff6214;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 0.18rem 0rem;
 }
-.more a span{
-    width: 27px;
-    height: 27px;
+
+.more a span {
+    width: 0.27rem;
+    height: 0.27rem;
+    font-size: 0.18rem;
     display: inline-block;
     border-radius: 100%;
-    text-align:center;
-    line-height:27px;
-    margin-right:10px;
-    border:1px solid #ff6214;
+    text-align: center;
+    line-height: 0.27rem;
+    margin-right: 0.10rem;
+    border: 0.01rem solid #ff6214;
 }
-.content{
+
+.content {
+    display: block;
+
     position: relative;
 }
-.content img{
+.content a{
+    display: block;
+
+}
+.content a img {
     width: 100%;
 }
-.content .bg-transparency-shang{
-    top:0px;
-    left:0px;
+
+.content .bg-transparency-shang {
+    top: 0rem;
+    left: 0rem;
     width: 95%;
-    position:absolute;
-    font-size: 34px;
+    position: absolute;
+    font-size: 0.34rem;
     color: #fff;
-    line-height: 57px;
-    padding-left: 32px;
-    height: 57px;
-    background-color: rgba(0,0,0,0.1);
+    /*line-height: 0.57rem;*/
+    padding-left: 0.32rem;
+    height: 0.57rem;
+    background-color: rgba(0, 0, 0, 0.1);
 }
-.content .bg-transparency-xia{
-    left: 26px;
-    bottom: 7px;
+
+.content .bg-transparency-xia {
+    left: 0.26rem;
+    bottom: 0.03rem;
     color: #fff;
-    font-size: 22px;
-    position:absolute;
-    background-color: rgba(0,0,0,0.1);
+    font-size: 0.22rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
 }
+

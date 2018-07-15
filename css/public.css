@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-07-11 13:25:36
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-07-11 18:11:59
+* @Last Modified time: 2018-07-15 17:09:46
 */
 /* 代码初始化*/
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
@@ -20,6 +20,7 @@ legend { color:#000; }
 fieldset, img { border:0; }
 button, input, select, textarea { font-size:100%; }
 table { border-collapse:collapse; border-spacing:0; }
+img{display: block;}
 /*清除浮动*/
 .clearfix:after {
     display: block;
@@ -30,4 +31,58 @@ table { border-collapse:collapse; border-spacing:0; }
 }
 .clearfix {
     zoom: 1;
+}
+section{
+    margin-bottom:1.2rem;
+}
+
+footer{
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    background-color: #fff;
+}
+.footer-inner a {
+    display: block;
+    font-size: 0.28rem;
+    float: left;
+    text-align: center;
+    color: #414141;
+    background-size: 100%;
+    padding-top: 0.56rem;
+    padding-bottom: 0.12rem;
+    margin: 0rem 0.445rem
+}
+
+.footer-inner a:nth-child(1) {
+    background: url('../images/home.jpg') center 0.10rem no-repeat;
+    color: #5ea4c6;
+    background-size: 75%;
+}
+
+.footer-inner a:nth-child(2) {
+    background: url('../images/woqu.jpg') center 0.12rem no-repeat;
+    background-size: 75%;
+}
+
+.footer-inner a:nth-child(3) {
+    background: url('../images/map.jpg') center 0.12rem no-repeat;
+    background-size: 75%;
+}
+
+.footer-inner a:nth-child(4) {
+    background: url('../images/geren.jpg') center 0.12rem no-repeat;
+    background-size: 40%;
+}
+
+@media screen and (max-width:321px){
+    .m-navlist{font-size:15px}
+}
+
+@media screen and (min-width:321px) and (max-width:400px){
+    .m-navlist{font-size:16px}
+}
+
+@media screen and (min-width:400px){
+    .m-navlist{font-size:18px}
 }

@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-07-11 18:17:44
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-07-11 18:37:54
+* @Last Modified time: 2018-07-13 14:13:20
 */
 
  var mySwiper = new Swiper ('.swiper-container', {
@@ -17,10 +17,10 @@
         },
 
         // 如果需要前进后退按钮
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
+        // navigation: {
+        //   nextEl: '.swiper-button-next',
+        //   prevEl: '.swiper-button-prev',
+        // },
 
         // 如果需要滚动条
         // scrollbar: {
