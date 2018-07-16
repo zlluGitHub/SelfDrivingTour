@@ -1,0 +1,117 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-16 13:51:31
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-16 22:38:33
+*/
+.inner {
+    background-color: #50bbdb;
+    width: 6.4rem;
+    text-align: center;
+    position:relative;
+}
+.inner a:nth-child(1){
+    display: block;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.30rem;
+    width: 0.30rem;
+    height: 0.55rem;
+    background: url('../images/back.jpg') 0rem 0rem no-repeat;
+    background-size: 99%;
+}
+.inner h1{
+    color:#fff;
+    font-size:0.24rem;
+    padding: 0.15rem 0;
+}
+.inner h1 span{
+    font-size: 0.16rem;
+}
+.inner a:nth-child(3){
+    position: absolute;
+    top: 0rem;
+    color:#fff;
+    display: block;
+    height: 0.90rem;
+    right: 0.12rem;
+    line-height: 0.45rem;
+    font-size: 0.82rem;
+}
+section{
+    margin-top: 0.02rem;
+}
+.content{
+    margin-bottom: 0.15rem;
+}
+.content .img{
+    float: left;
+    margin-right: 0.12rem;
+    position:relative;
+}
+.content .img img{
+    width: 1.8rem;
+}
+.content .img span{
+    position:absolute;
+    bottom: 0.05rem;
+    color: #fff;
+    font-size: 0.18rem;
+    left: 0.22rem;
+}
+.content p:nth-child(2){
+    font-size: 0.22rem;
+    line-height: 0.38rem;
+    padding: 0.12rem;
+}
+.content p:nth-child(3){
+    font-size: 0.20rem;
+    color:#ccc;
+    padding-right: 0.12rem;
+    margin-bottom: 0.12rem;
+}
+.content p:nth-child(4) b{
+    font-size: 0.16rem;
+    padding-left: 0.12rem;
+}
+.text{
+    font-size: 0.16rem;
+}
+.text p{
+    font-size: 0.18rem;
+    float: left;
+}
+.text b{
+    color:red;
+
+    font-weight:lighter;
+    margin-right: 0.25rem;
+    float: right;
+}
+.text b span{
+    font-size: 0.16rem;
+}
+.text b i{
+    font-size: 0.26rem;
+    font-style: normal;
+
+}
+.footer-inner a:nth-child(1) {
+    background: url(../images/woqu.jpg) center 0.12rem no-repeat;
+    background-size: 42%;
+}
+.footer-inner a:nth-child(2) {
+    background: url(../images/woqu.jpg) center 0.12rem no-repeat;
+    background-size: 42%;
+}
+.footer-inner a:nth-child(3) {
+    background: url(../images/woqu.jpg) center 0.12rem no-repeat;
+    background-size: 42%;
+}
+.footer-inner a:nth-child(4) {
+    background: url(../images/woqu.jpg) center 0.12rem no-repeat;
+    background-size: 42%;
+}
+.footer-inner a {
+    font-size: 0.17rem;
+}
