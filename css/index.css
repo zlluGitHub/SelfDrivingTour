@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-07-11 18:11:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-07-15 12:03:29
+* @Last Modified time: 2018-07-17 11:03:57
 */
 
 
@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-header .inner {
+ .inner {
     background-color: #50bbdb;
 }
 
@@ -33,14 +33,14 @@ header .inner .location {
     background-size: 42%;
 }
 
-header .inner .operation {
+.inner .operation {
     width: 4.80rem;
     margin-top: 0.65rem;
     margin-bottom: 0.26rem;
     float: right;
 }
 
-header .inner .switchover {
+.inner .switchover {
     float: left;
     margin-top: 0.12rem;
     border-radius: 0.05rem;

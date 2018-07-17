@@ -1,0 +1,120 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-17 11:23:43
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-17 21:41:43
+*/
+.sdt_container{
+    width: 6.40rem;
+    margin:0rem auto;
+}
+.inner {
+    position:relative;
+    background-color: #50bbdb;
+    width: 100%;
+}
+.inner a {
+    display: block;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.30rem;
+    width: 0.43rem;
+    height: 0.43rem;
+    background: url('../images/xiangqing.jpg') 0rem 0rem no-repeat;
+    background-size: 99%;
+}
+
+.inner h2 {
+    padding: 0.20rem 0rem;
+    margin-left: 2.67rem;
+    float: left;
+    color: #fff;
+    font-size: 0.22rem;
+}
+.inner-list{
+    background-color:#f1f1f1;
+}
+.list-content{
+    padding: 0rem 0.12rem;
+    margin-bottom:0.10rem;
+    background-color:#fff;
+}
+.list-top{
+    background-color:#fff;
+    margin-bottom: 0.10rem;
+}
+.list-top a{
+    color: #000;
+    font-size:0.18rem;
+    margin: 0.12rem 0.80rem;
+    padding: 0.10rem 0.10rem;
+    text-align: center;
+}
+.all-lassify{
+    float: left;
+}
+.time-classify{
+    float: right;
+}
+.order-data{
+    font-size:0.21rem;
+    padding:0.05rem 0rem;
+    color:#979797;
+}
+.order-data span{
+    margin-right: 0.08rem;
+}
+.order-data span:nth-child(1){
+    padding-right: 0.08rem;
+    border-right: 0.01rem solid #979797;
+}
+.order-top{
+    color: #ccc;
+}
+.order-top span:nth-child(1){
+    margin-left:0.12rem;
+    color: #ccc;
+    margin-right: 0.36rem;
+}
+.order-top span:nth-child(2){
+
+    margin-right: 0.36rem;
+}
+.order-content{
+    border-top:0.01rem dashed #ccc;
+    border-bottom: 0.01rem solid #ccc;
+}
+.order-content p{
+    margin-top: 0.12rem;
+}
+.order-content p:nth-child(1){
+    font-size:0.20rem;
+}
+.order-message{
+    font-size: 0.19rem;
+    color:#666666;
+    padding-bottom:0.12rem;
+}
+.order-message span{
+    margin-right:0.12rem;
+
+}
+.order-message span:nth-child(3){
+    color:red;
+    margin-left:0.28rem;
+}
+.order-bottom span{
+    float: left;
+    display: block;
+    padding:0.12rem 0.12rem;
+    color:red;
+    font-size:0.2rem;
+}
+.order-bottom select{
+    font-size: 0.18rem;
+    margin-top:0.10rem;
+    margin-right:0.12rem;
+   float: right;
+   width: 0.67rem;
+   height: 0.27rem;
+}

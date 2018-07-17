@@ -1,0 +1,54 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-17 09:13:03
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-17 11:06:56
+*/
+.inner {
+    background-color: #50bbdb;
+    width: 100%;
+}
+.inner a {
+    display: block;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.30rem;
+    width: 0.43rem;
+    height: 0.43rem;
+    background: url('../images/xiangqing.jpg') 0rem 0rem no-repeat;
+    background-size: 99%;
+}
+
+.inner h2 {
+    padding: 0.20rem 0rem;
+    margin-left: 2.67rem;
+    float: left;
+    color: #fff;
+    font-size: 0.22rem;
+}
+article {
+    padding: 0.2rem 0.42rem;
+}
+
+article div img {
+    float: left;
+}
+
+article div h1 {
+    padding: 0.40rem 0.18rem;
+    font-size: 0.38rem;
+    float: right;
+    font-weight: lighter;
+}
+
+article div img {
+    width: 25%;
+}
+
+article p {
+    letter-spacing: 0.02rem;
+    margin-top: 0.28rem;
+    font-size: 0.20rem;
+}
+
+
