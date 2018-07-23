@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    <input type="test" name="">
+    <button>评论</button>
+<ul>
+
+</ul>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js" type="text/javascript" ></script>
+<script>
+
+    $('button').click(function(event) {
+        /* Act on the event */
+        var content = $('input').val();
+        if (content.trim() !== '') {
+            $.post('http://localhost:3008/comments',{ "body": content }, function(data) {
+                var li = $('<li>').text(content);
+                $('ul').prepend(li);
+                $('input').val('');
+            });
+        };
+    });
+
+    $.ajax({
+        url: 'http://localhost:3008/comments',
+        type: 'GET',
+        dataType: 'jsonp',
+        data: {param1: 'value1'},
+    })
+    .done(function(data) {
+        $.each(data, function(index, val) {
+            console.log(val);
+             var li = $('<li>').text(val.body);
+             $('ul').prepend(li);
+        });
+    });
+
+</script>
+</body>
+</html>

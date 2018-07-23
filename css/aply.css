@@ -1,0 +1,71 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-18 13:20:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-22 13:50:07
+*/
+.sdt_container{
+    width: 6.40rem;
+    margin: 0rem auto;
+    background-color: #f6f6f6;
+}
+
+.total{
+    width:100%;
+    padding: 0.30rem 0.52rem;
+    color: #fd9027;
+    font-size: 0.36rem;
+    background-color: #fff;
+}
+.payment{
+    margin-top: 0.20rem;
+    background-color: #fff;
+}
+.aply{
+    margin: 0rem 0.52rem;
+    padding: 0.20rem 0rem;
+    border-bottom: 0.01rem solid #f6f6f6;
+}
+.aply img{
+    width:0.60rem;
+    height: 0.60rem;
+    float: left;
+
+}
+.aply span{
+    float: left;
+    font-size: 0.32rem;
+    margin-top: 0.10rem;
+    display: block;
+    margin-left: 0.25rem;
+}
+.aply input{
+    float: right;
+    border-radius: 1rem;
+    width: 0.45rem;
+    height: 0.45rem;
+}
+.footer-left{
+    float: left;
+
+}
+.Paypal{
+    font-size: 0.28rem;
+    color:#f8860a;
+}
+.remain-time{
+    color:#000;
+    font-size:0.26rem;
+}
+.footer-center .footer-right{
+    float: right;
+    display: block;
+    width: 1.85rem;
+    height: 0.65rem;
+    color:#fff;
+    font-size:0.28rem;
+    line-height: 0.65rem;
+    text-align: center;
+    background-color:#50bbdb;
+
+}
