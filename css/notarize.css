@@ -1,6 +1,179 @@
-/*
+                /*
 * @Author: Marte
 * @Date:   2018-07-22 13:56:18
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-07-22 13:56:23
+* @Last Modified time: 2018-07-25 09:21:46
 */
+                
+                .sdt_container {
+                    width: 640px;
+                    background-color: #ededed;
+                }
+                
+                .info {
+                    border-radius: 12px;
+                    background-color: #fff;
+                    margin: 12px 12px 0px 12px;
+                }
+                
+                .info-bottom {
+                    padding-left: 27px;
+                    position: relative;
+                }
+                
+                .info-bottom>a {
+                    display: block;
+                    position: absolute;
+                    top: 52px;
+                    right: 52px;
+                    width: 75px;
+                    height: 35px;
+                    text-align: center;
+                    line-height: 35px;
+                    color: #51bbcb;
+                    border: 1px solid #cbcbcb;
+                    border-radius: 6px;
+                }
+                
+                .top-info {
+                    padding: 12px 0px;
+                    border-bottom: 1px solid #cbcbcb;
+                }
+                
+                .top-info>span,
+                .tap a {
+                    font-size: 16px;
+                    color: #000;
+                    font-weight: bold;
+                    margin-left: 10px;
+                    border-left: 5px solid #4fbcdd;
+                    padding-left: 12px;
+                }
+                
+                .info-bottom>p {
+                    font-size: 18px;
+                    margin-top: 12px;
+                }
+                
+                .title-info {
+                    margin-top: 12px;
+                }
+                
+                .title-info h1 {
+                    display: inline;
+                }
+                
+                .home-info a {
+                    display: inline-block;
+                    width: 35px;
+                    height: 28px;
+                    line-height: 28px;
+                    text-align: center;
+                    border: 1px solid #cbcbcb;
+                }
+                
+                .home-info span span {
+                    display: inline-block;
+                    line-height: 28px;
+                    text-align: center;
+                    width: 35px;
+                    border-top: 1px solid #cbcbcb;
+                    border-bottom: 1px solid #cbcbcb;
+                    height: 28px;
+                }
+                
+                .select {
+                    position: relative;
+                    height: 72px;
+                    margin-top: 12px;
+                }
+                
+                .select div {
+                    position: absolute;
+                    top: 0px;
+                    right: 150px;
+                }
+                
+                .select div p {
+                    margin-bottom: 12px;
+                }
+                
+                .select p label {
+                    padding-left: 5px;
+                }
+                
+                .tap {
+                    padding: 12px 0px;
+                    border-bottom: 1px solid #cbcbcb;
+                }
+                
+                .tap a:nth-child(2) {
+                    border-left: none;
+                }
+                
+                .context-p {
+                    padding-left: 27px;
+                }
+                
+                .context-p p {
+                    margin-bottom: 12px;
+                }
+                
+                .context-p span {
+                    margin-top: 12px;
+                    display: block;
+                    margin-bottom: 12px;
+                }
+                
+                .debook {
+                    display: none;
+                }
+                
+                .info input {}
+                
+                .info-con,
+                .insure {
+                    margin: 0px 27px;
+                    position: relative;
+                }
+                
+                .info-con .name {
+                    border-bottom: none;
+                }
+                
+                .info-con>div {
+                    padding: 12px 0px;
+                    border-bottom: 1px solid #cbcbcb;
+                }
+                
+                .info-con .sex {
+                    position: absolute;
+                    top: 50px;
+                    right: 280px;
+                    border-bottom: none;
+                }
+                
+                .sex div {
+                    margin-right: 12px;
+                    float: right;
+                }
+                
+                .tourist {
+                    margin: 0px 27px;
+                }
+                
+                .tourist>div {
+                    margin: 12px 0px;
+                }
+                
+                .insure div {
+                    padding: 8px 0px;
+                }
+                
+                .insure div label{
+                    margin-left: 20px;
+                }
+                
+                .insure div:nth-child(1) {
+                    border-bottom: 1px solid #cbcbcb;
+                }
